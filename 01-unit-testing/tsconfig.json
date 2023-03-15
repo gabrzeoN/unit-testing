@@ -1,6 +1,13 @@
 {
   "compilerOptions": {
     "noImplicitAny": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "target": "ES6",
+    "module": "es6",
+    "moduleResolution": "node",
+  },
+  "ts-node": {
+    "esm": true
   }
 }
